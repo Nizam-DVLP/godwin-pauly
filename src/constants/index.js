@@ -6,22 +6,22 @@ export const navLinksdata = [
   },
   {
     _id: 1002,
-    title: "Features",
+    title: "What I Do",
     link: "features",
   },
   {
     _id: 1003,
-    title: "Projects",
+    title: "Highlights",
     link: "projects",
   },
   {
     _id: 1004,
-    title: "Resume",
+    title: "Principles & Filters",
     link: "resume",
   },
   {
     _id: 1005,
-    title: "Testimonial",
+    title: "Why Connect",
     link: "testimonial",
   },
   {
