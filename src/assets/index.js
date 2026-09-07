@@ -10,6 +10,9 @@ import quote from "./images/testmonial/quote.png";
 import rahulSharmaImg from "./images/testmonial/rahul_sharma.jpg";
 import priyaNairImg from "./images/testmonial/priya_nair.jpg";
 import rohanVermaImg from "./images/testmonial/rohan_verma.jpg";
+import vikramMalhotraImg from "./images/testmonial/vikram_malhotra.jpg";
+import ananyaIyerImg from "./images/testmonial/ananya_iyer.jpg";
+import karthikMenonImg from "./images/testmonial/karthik_menon.jpg";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
@@ -25,5 +28,8 @@ export {
   rahulSharmaImg,
   priyaNairImg,
   rohanVermaImg,
+  vikramMalhotraImg,
+  ananyaIyerImg,
+  karthikMenonImg,
   contactImg,
 };

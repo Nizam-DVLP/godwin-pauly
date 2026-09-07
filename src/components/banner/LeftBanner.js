@@ -29,7 +29,7 @@ const LeftBanner = () => {
         <h4 className="text-xs sm:text-sm md:text-base font-semibold tracking-widest text-black uppercase">
           BUSINESS OPERATIONS • ASSET ADVISORY • MULTI-CHANNEL INCOME DESIGN
         </h4>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lgl:text-5xl xl:text-6xl font-bold text-black whitespace-nowrap">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lgl:text-5xl xl:text-6xl font-bold text-black break-words sm:whitespace-nowrap">
           Hi, I'm <span className="text-gray-900 underline decoration-black underline-offset-8">Godwin Pauly</span>
         </h1>
         <h2 className="text-2xl sm:text-3xl lgl:text-3xl xl:text-4xl font-bold text-black min-h-[40px] flex flex-wrap items-center">
