@@ -24,29 +24,29 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <div className="w-full lgl:w-[55%] flex flex-col gap-12 lgl:gap-14">
       <div className="flex flex-col gap-5">
-        <h4 className="text-sm md:text-base font-semibold tracking-widest text-black uppercase">
+        <h4 className="text-xs sm:text-sm md:text-base font-semibold tracking-widest text-black uppercase">
           BUSINESS OPERATIONS • ASSET ADVISORY • MULTI-CHANNEL INCOME DESIGN
         </h4>
-        <h1 className="text-5xl lgl:text-6xl font-bold text-black">
-          Hi, I'm <span className="text-gray-800 underline decoration-black underline-offset-8">Godwin Pauly</span>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lgl:text-5xl xl:text-6xl font-bold text-black whitespace-nowrap">
+          Hi, I'm <span className="text-gray-900 underline decoration-black underline-offset-8">Godwin Pauly</span>
         </h1>
-        <h2 className="text-3xl lgl:text-4xl font-bold text-black">
-          a <span>{text}</span>
+        <h2 className="text-2xl sm:text-3xl lgl:text-3xl xl:text-4xl font-bold text-black min-h-[40px] flex flex-wrap items-center">
+          a&nbsp;<span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#000000"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-7 tracking-wide text-gray-700">
+        <p className="text-sm sm:text-base font-bodyFont leading-7 tracking-wide text-gray-700">
           I design and execute structured income models across real estate transactions,
           retail distribution, and education advisory. With a background in Business
           Administration (Data Analytics &amp; HR) and hands-on execution experience, I focus on
           identifying opportunity, structuring it correctly, and executing it for sustainable revenue.
         </p>
-        <p className="text-sm font-bold tracking-wider text-black uppercase bg-gray-100 p-3 rounded-md border-l-4 border-black">
+        <p className="text-xs sm:text-sm font-bold tracking-wider text-black uppercase bg-gray-100 p-3 rounded-md border-l-4 border-black">
           “Clarity first. Structure second. Execution always. Where others see ideas, I see structure.”
         </p>
       </div>

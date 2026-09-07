@@ -40,12 +40,6 @@ const Education = () => {
             result="Long-Term"
             des="Reject ephemeral, short-term vanity wins in favor of compounding cashflow, resilient client relationships, and enduring systems."
           />
-          <ResumeCard
-            title="Stay Adaptable, Protect Fundamentals"
-            subTitle="Principle 05 • Resilience"
-            result="Adaptable"
-            des="Remain agile to market conditions and shifting cycles while strictly safeguarding foundational unit margins and clarity."
-          />
         </div>
       </div>
 

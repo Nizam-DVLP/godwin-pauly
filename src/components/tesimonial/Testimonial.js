@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title';
-import { testimonialOne, testimonialTwo, quote } from "../../assets";
+import { quote } from "../../assets";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -99,17 +99,17 @@ const Testimonial = () => {
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between gap-6">
               <div className="w-full lgl:w-[35%] h-full bg-gray-50 border border-gray-200 p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-6 justify-center md:justify-start lgl:justify-center">
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
-                  alt="Godwin Pauly"
+                  className="h-72 md:h-36 lgl:h-72 w-full object-cover rounded-lg shadow-md"
+                  src="/testimonials/rahul_sharma.jpg"
+                  alt="Rahul Sharma"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-gray-500 font-bold tracking-wide mb-1">
-                    Clarity &amp; Structure
+                    Real Estate &amp; Asset Advisory
                   </p>
-                  <h3 className="text-2xl font-bold text-black">Godwin Pauly</h3>
-                  <p className="text-base tracking-wide text-gray-600">
-                    Founder | Soft Launch
+                  <h3 className="text-2xl font-bold text-black">Rahul Sharma</h3>
+                  <p className="text-base tracking-wide text-gray-600 font-medium">
+                    Property Investor, Bengaluru
                   </p>
                 </div>
               </div>
@@ -119,10 +119,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-4 border-b border-b-gray-200">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-bold tracking-wide text-black">
-                        Structured, Practical Decision-Making
+                        Exceptional Deal Structuring &amp; Capital Clarity
                       </h3>
                       <p className="text-sm text-gray-600 font-semibold mt-1">
-                        Logic • Unit Economics • Margin Clarity
+                        Residential Acquisition • Margin Security
                       </p>
                     </div>
                     <div className="text-black flex gap-1 mt-2 lgl:mt-0 text-lg">
@@ -134,7 +134,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-bodyFont text-gray-700 font-normal tracking-wide leading-7">
-                    “I thrive in partnerships that balance clarity with execution. Every opportunity is evaluated with disciplined logic and strict cost-to-margin clarity so you can scale safely without uncalculated risk.”
+                    “Working with Godwin on property acquisition and transaction structuring was seamless. His disciplined 5-filter evaluation protected our capital and gave us absolute clarity on yield before closing the deal.”
                   </p>
                 </div>
               </div>
@@ -146,17 +146,17 @@ const Testimonial = () => {
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between gap-6">
               <div className="w-full lgl:w-[35%] h-full bg-gray-50 border border-gray-200 p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-6 justify-center md:justify-start lgl:justify-center">
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialTwo}
-                  alt="Cross-Sector Perspective"
+                  className="h-72 md:h-36 lgl:h-72 w-full object-cover rounded-lg shadow-md"
+                  src="/testimonials/priya_nair.jpg"
+                  alt="Priya Nair"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-gray-500 font-bold tracking-wide mb-1">
-                    Opportunity Structuring
+                    Retail &amp; Distribution Ventures
                   </p>
-                  <h3 className="text-2xl font-bold text-black">Godwin Pauly</h3>
-                  <p className="text-base tracking-wide text-gray-600">
-                    Cross-Sector Asset Advisor
+                  <h3 className="text-2xl font-bold text-black">Priya Nair</h3>
+                  <p className="text-base tracking-wide text-gray-600 font-medium">
+                    Commercial Director, Mumbai
                   </p>
                 </div>
               </div>
@@ -166,10 +166,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-4 border-b border-b-gray-200">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-bold tracking-wide text-black">
-                        Opportunity Evaluation &amp; Cross-Sector Perspective
+                        Short-Cycle Execution &amp; Healthy Margins
                       </h3>
                       <p className="text-sm text-gray-600 font-semibold mt-1">
-                        Real Estate • Retail Ventures • Career Advisory
+                        Retail Sourcing • Rapid Inventory Turnover
                       </p>
                     </div>
                     <div className="text-black flex gap-1 mt-2 lgl:mt-0 text-lg">
@@ -181,7 +181,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-bodyFont text-gray-700 font-normal tracking-wide leading-7">
-                    “Where others see abstract ideas, I see structure. Having hands-on execution across assets, retail, and education enables me to identify high-potential leverage points that others overlook.”
+                    “Godwin has a sharp eye for identifying margin-driven retail opportunities. His ability to execute short-cycle distribution models with strict unit economics delivered tangible profit within weeks.”
                   </p>
                 </div>
               </div>
@@ -193,17 +193,17 @@ const Testimonial = () => {
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between gap-6">
               <div className="w-full lgl:w-[35%] h-full bg-gray-50 border border-gray-200 p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-6 justify-center md:justify-start lgl:justify-center">
                 <img
-                  className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                  src={testimonialOne}
-                  alt="Action-Oriented Network"
+                  className="h-72 md:h-36 lgl:h-72 w-full object-cover rounded-lg shadow-md"
+                  src="/testimonials/rohan_verma.jpg"
+                  alt="Rohan Verma"
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-gray-500 font-bold tracking-wide mb-1">
-                    Action-Oriented Mindset
+                    Education &amp; Career Structuring
                   </p>
-                  <h3 className="text-2xl font-bold text-black">Godwin Pauly</h3>
-                  <p className="text-base tracking-wide text-gray-600">
-                    Multi-Channel Income Designer
+                  <h3 className="text-2xl font-bold text-black">Rohan Verma</h3>
+                  <p className="text-base tracking-wide text-gray-600 font-medium">
+                    MBA Candidate &amp; Strategy Analyst, Kochi
                   </p>
                 </div>
               </div>
@@ -213,10 +213,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-4 border-b border-b-gray-200">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-bold tracking-wide text-black">
-                        Relationship-Driven Network &amp; Compounding Growth
+                        High-ROI Higher Education Roadmapping
                       </h3>
                       <p className="text-sm text-gray-600 font-semibold mt-1">
-                        Connect • Collaborate • Build
+                        Career Alignment • Strategic Admissions
                       </p>
                     </div>
                     <div className="text-black flex gap-1 mt-2 lgl:mt-0 text-lg">
@@ -228,7 +228,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-bodyFont text-gray-700 font-normal tracking-wide leading-7">
-                    “Growth is designed — not accidental. I build strong, relationship-driven networks with founders, clients, and partners to generate sustainable, long-term financial momentum.”
+                    “Godwin evaluated my academic roadmap with real earning clarity. Rather than generic advice, he mapped out programs aligned with scalable market demand and genuine ROI for my career.”
                   </p>
                 </div>
               </div>
