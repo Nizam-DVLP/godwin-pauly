@@ -1,14 +1,13 @@
-import React from 'react';
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { logo } from "../../assets/index";
+import { godwinImg } from "../../assets/index";
 
 const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-gray-200 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-6">
-        <div className="flex items-center gap-2">
-          <img className="w-16" src={logo} alt="Godwin Pauly" />
+        <div className="flex items-center gap-3">
+          <img className="w-14 h-14 rounded-full object-cover border-2 border-black shadow-sm" src={godwinImg} alt="Godwin Pauly" />
         </div>
         <div>
           <h3 className="text-xl font-bold text-black font-titleFont">

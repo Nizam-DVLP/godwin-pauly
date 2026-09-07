@@ -4,15 +4,19 @@ import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { logo } from "../../assets/index";
 import { navLinksdata } from '../../constants';
+import { godwinImg } from '../../assets/index';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-white/95 backdrop-blur-md mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-200">
-      <div className="flex items-center gap-2">
-        <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
+      <div className="flex items-center gap-3 cursor-pointer">
+        <img
+          src={godwinImg}
+          alt="Godwin Pauly"
+          className="w-11 h-11 rounded-full object-cover border-2 border-black shadow-sm"
+        />
         <span className="font-bold text-xl tracking-wider text-black">
           GODWIN <span className="text-gray-600">PAULY</span>
         </span>
@@ -47,7 +51,11 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-white border-r border-gray-200 shadow-2xl p-6 scrollbar-hide z-50">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-20" src={logo} alt="logo" />
+                <img
+                  className="w-16 h-16 rounded-full object-cover border-2 border-black shadow-md"
+                  src={godwinImg}
+                  alt="Godwin Pauly"
+                />
                 <h3 className="text-lg font-bold text-black mt-3 font-titleFont">
                   GODWIN <span className="text-gray-600">PAULY</span>
                 </h3>
