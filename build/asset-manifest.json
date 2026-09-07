@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd122da1.css",
+    "main.js": "/static/js/main.cd1ba312.js",
+    "static/media/godwin.png": "/static/media/godwin.d55aedd17b2c2d909bd7.png",
+    "static/media/rohan_verma.jpg": "/static/media/rohan_verma.db213b1b83e75dfb049c.jpg",
+    "static/media/rahul_sharma.jpg": "/static/media/rahul_sharma.72619d0d37cd9dee36ce.jpg",
+    "static/media/priya_nair.jpg": "/static/media/priya_nair.fcad15deb150a8a3fd0d.jpg",
+    "static/media/bannerImg.png": "/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/projectThree.jpeg": "/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/testimonialTwo.png": "/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/projectTwo.jpg": "/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/index.html",
+    "main.cd122da1.css.map": "/static/css/main.cd122da1.css.map",
+    "main.cd1ba312.js.map": "/static/js/main.cd1ba312.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd122da1.css",
+    "static/js/main.cd1ba312.js"
+  ]
+}

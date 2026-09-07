@@ -38,9 +38,12 @@ export function Features() {
                         </p>
                     </div>
 
-                    <div className="space-y-3 sm:border-b border-gray-200 hover:bg-gray-50/80 transition-colors duration-200">
+                    <div
+                        onClick={() => window.open('https://rightin.in', '_blank', 'noopener,noreferrer')}
+                        className="space-y-3 sm:border-b border-gray-200 hover:bg-gray-50/80 transition-colors duration-200 group cursor-pointer"
+                    >
                         <div className="flex items-center gap-2.5">
-                            <GraduationCap className="w-5 h-5 text-black" />
+                            <GraduationCap className="w-5 h-5 text-black group-hover:scale-110 transition-transform duration-200" />
                             <h3 className="text-base font-bold text-black">Education Advisory</h3>
                         </div>
                         <p className="text-sm text-gray-600 leading-relaxed">
