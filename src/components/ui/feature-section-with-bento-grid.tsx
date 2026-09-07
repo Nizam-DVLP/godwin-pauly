@@ -24,10 +24,10 @@ function Feature() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Bento Card 1: Retail Distribution (2 cols) */}
-            <div className="bg-white border border-gray-200 rounded-2xl h-full lg:col-span-2 p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300 relative overflow-hidden">
-              <div className="flex items-center justify-between z-10">
+          <div className="grid grid-cols-1 mdl:grid-cols-2 lgl:grid-cols-3 gap-6">
+            {/* Bento Card 1: Retail Distribution (2 cols on tablet & desktop) */}
+            <div className="bg-white border border-gray-200 rounded-2xl h-full mdl:col-span-2 lgl:col-span-2 p-6 sm:p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300 relative overflow-hidden">
+              <div className="flex items-center justify-between z-10 gap-2 flex-wrap">
                 <div className="w-12 h-12 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-black group-hover:bg-black group-hover:text-white transition-colors duration-300">
                   <Wine className="w-6 h-6 stroke-[1.5]" />
                 </div>
@@ -44,7 +44,7 @@ function Feature() {
               </div>
               <div className="flex flex-col gap-2 z-10">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-2xl font-bold tracking-tight text-black font-titleFont">
+                  <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-black font-titleFont">
                     Retail Wine Distribution
                   </h3>
                   <ArrowUpRight className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
@@ -56,8 +56,8 @@ function Feature() {
             </div>
 
             {/* Bento Card 2: Real Estate Advisory (1 col) */}
-            <div className="bg-white border border-gray-200 rounded-2xl p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300">
-              <div className="flex items-center justify-between">
+            <div className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
                 <div className="w-12 h-12 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-black group-hover:bg-black group-hover:text-white transition-colors duration-300">
                   <Building className="w-6 h-6 stroke-[1.5]" />
                 </div>
@@ -74,7 +74,7 @@ function Feature() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-bold tracking-tight text-black font-titleFont">
+                  <h3 className="text-lg sm:text-xl font-bold tracking-tight text-black font-titleFont">
                     Residential Property Deal
                   </h3>
                   <ArrowUpRight className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
@@ -90,9 +90,9 @@ function Feature() {
               href="https://rightin.in"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-white border border-gray-200 rounded-2xl p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300 cursor-pointer block"
+              className="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300 cursor-pointer block"
             >
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
                 <div className="w-12 h-12 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-black group-hover:bg-black group-hover:text-white transition-colors duration-300">
                   <GraduationCap className="w-6 h-6 stroke-[1.5]" />
                 </div>
@@ -109,7 +109,7 @@ function Feature() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-bold tracking-tight text-black font-titleFont">
+                  <h3 className="text-lg sm:text-xl font-bold tracking-tight text-black font-titleFont">
                     Education Advisory
                   </h3>
                   <ArrowUpRight className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />
@@ -120,9 +120,9 @@ function Feature() {
               </div>
             </a>
 
-            {/* Bento Card 4: Soft Launch Platform (2 cols) */}
-            <div className="bg-white border border-gray-200 rounded-2xl h-full lg:col-span-2 p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300">
-              <div className="flex items-center justify-between">
+            {/* Bento Card 4: Soft Launch Platform (2 cols on tablet & desktop) */}
+            <div className="bg-white border border-gray-200 rounded-2xl h-full mdl:col-span-2 lgl:col-span-2 p-6 sm:p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300">
+              <div className="flex items-center justify-between gap-2 flex-wrap">
                 <div className="w-12 h-12 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-black group-hover:bg-black group-hover:text-white transition-colors duration-300">
                   <Rocket className="w-6 h-6 stroke-[1.5]" />
                 </div>
@@ -139,7 +139,7 @@ function Feature() {
               </div>
               <div className="flex flex-col gap-2">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-2xl font-bold tracking-tight text-black font-titleFont">
+                  <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-black font-titleFont">
                     Soft Launch Platform
                   </h3>
                   <ArrowUpRight className="w-5 h-5 text-gray-400 group-hover:text-black transition-colors" />

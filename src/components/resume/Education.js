@@ -65,7 +65,7 @@ const Education = () => {
           <ResumeCard
             title="Education & Career Advisory"
             subTitle="UG / PG Admissions Consulting • RightIn"
-            result="rightin.in"
+            result="Advisory"
             link="https://rightin.in"
             des="Guided 50+ students in structured admissions roadmaps aligned with earning clarity, high ROI, and career trajectories via rightin.in."
           />
