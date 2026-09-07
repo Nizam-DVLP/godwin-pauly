@@ -1,14 +1,14 @@
 import React from 'react';
 import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { contactImg } from "../../assets/index";
+import { godwinImg } from "../../assets/index";
 
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-white border border-gray-200 p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
       <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
-        src={contactImg}
+        className="w-full h-64 object-cover object-top rounded-lg mb-2 shadow-sm border border-gray-200"
+        src={godwinImg}
         alt="Godwin Pauly"
       />
       <div className="flex flex-col gap-4">

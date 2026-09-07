@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Title';
-import ContactLeft from './ContactLeft';
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -53,11 +52,9 @@ const Contact = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="STRATEGIC PARTNERSHIPS" des="Let's Connect" />
       </div>
-      <div className="w-full">
-        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between gap-8">
-          <ContactLeft />
-          <div className="w-full lgl:w-[60%] h-full py-10 bg-white border border-gray-200 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
-            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
+      <div className="w-full max-w-3xl mx-auto">
+        <div className="w-full h-full py-10 bg-white border border-gray-200 flex flex-col gap-8 p-6 md:p-12 rounded-2xl shadow-shadowOne">
+          <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2">
               {errMsg && (
                 <p className="py-3 bg-red-50 border border-red-200 rounded-md text-center text-red-600 text-sm font-semibold tracking-wide animate-bounce">
                   {errMsg}
@@ -166,7 +163,6 @@ const Contact = () => {
             </form>
           </div>
         </div>
-      </div>
     </section>
   );
 }

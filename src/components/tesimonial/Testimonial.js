@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from '../layouts/Title';
-import { quote } from "../../assets";
+import { quote, rahulSharmaImg, priyaNairImg, rohanVermaImg } from "../../assets";
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -100,7 +100,7 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gray-50 border border-gray-200 p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-6 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-36 lgl:h-72 w-full object-cover rounded-lg shadow-md"
-                  src="/testimonials/rahul_sharma.jpg"
+                  src={rahulSharmaImg}
                   alt="Rahul Sharma"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -147,7 +147,7 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gray-50 border border-gray-200 p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-6 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-36 lgl:h-72 w-full object-cover rounded-lg shadow-md"
-                  src="/testimonials/priya_nair.jpg"
+                  src={priyaNairImg}
                   alt="Priya Nair"
                 />
                 <div className="w-full flex flex-col justify-end">
@@ -194,7 +194,7 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[35%] h-full bg-gray-50 border border-gray-200 p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-6 justify-center md:justify-start lgl:justify-center">
                 <img
                   className="h-72 md:h-36 lgl:h-72 w-full object-cover rounded-lg shadow-md"
-                  src="/testimonials/rohan_verma.jpg"
+                  src={rohanVermaImg}
                   alt="Rohan Verma"
                 />
                 <div className="w-full flex flex-col justify-end">
