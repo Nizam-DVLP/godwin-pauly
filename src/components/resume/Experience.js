@@ -9,55 +9,55 @@ const Experience = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+      <div className="w-full lgl:w-1/2">
+        <div className="py-6 lgl:py-8 font-titleFont flex flex-col gap-3">
+          <p className="text-xs text-gray-500 font-bold uppercase tracking-[3px]">ASSET &amp; VENTURE TRACK RECORD</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-black">Commercial Execution</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 lgl:mt-8 w-full h-auto border-l-2 border-l-gray-300 flex flex-col gap-6">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Real Estate Advisory"
+            subTitle="Property Advisory &amp; Transaction Structuring"
+            result="Advisory"
+            des="Helping clients buy, sell, or structure property decisions aligned with long-term financial growth; successfully closed residential transactions generating ₹10,000 commission income."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Retail &amp; Cashflow Ventures"
+            subTitle="Short-Cycle Margin Distribution"
+            result="Distribution"
+            des="Identifying margin-driven retail opportunities and executing short-cycle revenue models; generated ₹6,000 profit in 14 days by independently sourcing and distributing 23 premium wine units."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Soft Launch Platform"
+            subTitle="Founder &amp; Principal Architect"
+            result="Founder"
+            des="A structured income experimentation platform designed to test, validate, execute, and scale diversified revenue models across assets and digital operations."
           />
         </div>
       </div>
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Trainer Experience</h2>
+      <div className="w-full lgl:w-1/2">
+        <div className="py-6 lgl:py-8 font-titleFont flex flex-col gap-3">
+          <p className="text-xs text-gray-500 font-bold uppercase tracking-[3px]">ADVISORY &amp; OPERATIONS</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-black">Advisory &amp; Systems</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 lgl:mt-8 w-full h-auto border-l-2 border-l-gray-300 flex flex-col gap-6">
           <ResumeCard
-            title="Gym Instructor"
-            subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Education &amp; Career Structuring"
+            subTitle="PG / UG Admissions Consulting"
+            result="50+ Students"
+            des="Guided 50+ students in selecting PG/UG academic programs aligned directly with high-income potential, career clarity, and candidate background."
           />
           <ResumeCard
-            title="Web Developer and Instructor"
-            subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Digital &amp; Scalable Income Systems"
+            subTitle="Leveraged Distribution Channels"
+            result="Scalable"
+            des="Creating leveraged digital channels and structured operating procedures designed for systematic, scalable revenue generation."
           />
           <ResumeCard
-            title="School Teacher"
-            subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Business Operations &amp; HR Analytics"
+            subTitle="Analytical Decision Framework"
+            result="Analytics"
+            des="Leveraging quantitative data analytics and organizational HR structuring to ensure cost clarity, healthy margins, and sustainable execution."
           />
         </div>
       </div>

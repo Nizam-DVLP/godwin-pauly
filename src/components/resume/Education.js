@@ -9,58 +9,70 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      {/* part one */}
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+      {/* part one: Operating Principles */}
+      <div className="w-full lgl:w-1/2">
+        <div className="py-6 lgl:py-8 font-titleFont flex flex-col gap-3">
+          <p className="text-xs text-gray-500 font-bold uppercase tracking-[3px]">EXECUTION PHILOSOPHY</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-black">Operating Principles</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 lgl:mt-8 w-full h-auto border-l-2 border-l-gray-300 flex flex-col gap-6">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Act Decisively, Guided by Logic"
+            subTitle="Principle 01 • Decision Making"
+            result="Logic"
+            des="Make sharp, rational decisions backed by data and structured opportunity assessment rather than emotional momentum."
           />
           <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Discipline Before Expansion"
+            subTitle="Principle 02 • Risk & Stability"
+            result="Discipline"
+            des="Establish solid unit economics, clear operational workflows, and risk containment before attempting to scale."
           />
           <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Diversify With Structure, Not Impulse"
+            subTitle="Principle 03 • Portfolio Growth"
+            result="Structure"
+            des="Build multi-channel income streams with deliberate architecture, ensuring each asset class supports the broader portfolio."
+          />
+          <ResumeCard
+            title="Prioritize Long-Term Value"
+            subTitle="Principle 04 • Sustainable Growth"
+            result="Long-Term"
+            des="Reject ephemeral, short-term vanity wins in favor of compounding cashflow, resilient client relationships, and enduring systems."
           />
         </div>
       </div>
-      {/* part Two */}
 
-      <div>
-        <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+      {/* part Two: Foundation & Background */}
+      <div className="w-full lgl:w-1/2">
+        <div className="py-6 lgl:py-8 font-titleFont flex flex-col gap-3">
+          <p className="text-xs text-gray-500 font-bold uppercase tracking-[3px]">FOUNDATION &amp; ROLES</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-black">Background &amp; Roles</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-4 lgl:mt-8 w-full h-auto border-l-2 border-l-gray-300 flex flex-col gap-6">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Business Administration"
+            subTitle="Specialization in Data Analytics & HR"
+            result="BBA"
+            des="Rigorous training in quantitative business data analysis, performance metrics, and human resource management for operational efficiency."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Founder • Soft Launch"
+            subTitle="Structured Income Experimentation Platform"
+            result="Active"
+            des="Platform dedicated to testing, validating, executing, and scaling revenue models across multiple asset and commercial verticals."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Cross-Sector Asset & Commercial Advisor"
+            subTitle="Real Estate • Retail Distribution • Education"
+            result="Advisor"
+            des="Advising and executing across diverse commercial sectors: structuring residential property deals, margin-driven distribution, and UG/PG admissions."
+          />
+          <ResumeCard
+            title="Practical Operating Mantra"
+            subTitle="Clarity • Structure • Execution"
+            result="Execution"
+            des="Where others see abstract ideas, I see tangible structure. Clarity first. Structure second. Execution always."
           />
         </div>
       </div>

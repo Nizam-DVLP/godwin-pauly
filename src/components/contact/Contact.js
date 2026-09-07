@@ -48,29 +48,29 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-b-gray-200"
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="CONTACT" des="Contact With Me" />
+        <Title title="STRATEGIC PARTNERSHIPS" des="Let's Connect" />
       </div>
       <div className="w-full">
-        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
+        <div className="w-full h-auto flex flex-col lgl:flex-row justify-between gap-8">
           <ContactLeft />
-          <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
+          <div className="w-full lgl:w-[60%] h-full py-10 bg-white border border-gray-200 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5">
               {errMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-red-50 border border-red-200 rounded-md text-center text-red-600 text-sm font-semibold tracking-wide animate-bounce">
                   {errMsg}
                 </p>
               )}
               {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-green-50 border border-green-200 rounded-md text-center text-green-700 text-sm font-semibold tracking-wide animate-bounce">
                   {successMsg}
                 </p>
               )}
               <div className="w-full flex flex-col lgl:flex-row gap-10">
-                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                <div className="w-full lgl:w-1/2 flex flex-col gap-3">
+                  <p className="text-xs text-gray-700 font-bold uppercase tracking-wider">
                     Your name
                   </p>
                   <input
@@ -81,10 +81,11 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    placeholder="John Doe"
                   />
                 </div>
-                <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
+                <div className="w-full lgl:w-1/2 flex flex-col gap-3">
+                  <p className="text-xs text-gray-700 font-bold uppercase tracking-wider">
                     Phone Number
                   </p>
                   <input
@@ -95,11 +96,12 @@ const Contact = () => {
                       "outline-designColor"
                     } contactInput`}
                     type="text"
+                    placeholder="+91 98765 43210"
                   />
                 </div>
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
+              <div className="flex flex-col gap-3">
+                <p className="text-xs text-gray-700 font-bold uppercase tracking-wider">
                   Email
                 </p>
                 <input
@@ -110,10 +112,11 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="email"
+                  placeholder="john@example.com"
                 />
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
+              <div className="flex flex-col gap-3">
+                <p className="text-xs text-gray-700 font-bold uppercase tracking-wider">
                   Subject
                 </p>
                 <input
@@ -124,10 +127,11 @@ const Contact = () => {
                     "outline-designColor"
                   } contactInput`}
                   type="text"
+                  placeholder="Real Estate / Retail Collaboration"
                 />
               </div>
-              <div className="flex flex-col gap-4">
-                <p className="text-sm text-gray-400 uppercase tracking-wide">
+              <div className="flex flex-col gap-3">
+                <p className="text-xs text-gray-700 font-bold uppercase tracking-wider">
                   Message
                 </p>
                 <textarea
@@ -138,23 +142,24 @@ const Contact = () => {
                   } contactTextArea`}
                   cols="30"
                   rows="8"
+                  placeholder="Tell me about the project or opportunity..."
                 ></textarea>
               </div>
               <div className="w-full">
                 <button
                   onClick={handleSend}
-                  className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
+                  className="w-full h-12 bg-black text-white font-bold rounded-lg text-sm tracking-widest uppercase hover:bg-gray-800 transition-all duration-300 shadow-md cursor-pointer"
                 >
                   Send Message
                 </button>
               </div>
               {errMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-orange-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-red-50 border border-red-200 rounded-md text-center text-red-600 text-sm font-semibold tracking-wide animate-bounce">
                   {errMsg}
                 </p>
               )}
               {successMsg && (
-                <p className="py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] shadow-shadowOne text-center text-green-500 text-base tracking-wide animate-bounce">
+                <p className="py-3 bg-green-50 border border-green-200 rounded-md text-center text-green-700 text-sm font-semibold tracking-wide animate-bounce">
                   {successMsg}
                 </p>
               )}

@@ -3,26 +3,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply bg-white text-gray-900 font-bodyFont;
+  }
+}
+
 @layer components{
     .bannerIcon{
-        @apply w-16 h-16 bg-black bg-opacity-25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-opacity-40 hover:-translate-y-1 transition-all hover:text-designColor cursor-pointer duration-300;
+        @apply w-16 h-16 bg-white border border-gray-200 text-gray-800 text-xl inline-flex items-center justify-center rounded-md shadow-shadowOne hover:bg-black hover:text-white hover:border-black hover:-translate-y-1 transition-all cursor-pointer duration-300;
     }
     .resumeLi {
-    @apply w-full h-20 bg-black bg-opacity-25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-opacity-40 duration-300 items-center border-[1px] rounded-none;
-         }
-.bgOpacity {
-@apply bg-black bg-opacity-40;
-                  }
-    .contactInput{
-        @apply w-full h-12 rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300
+        @apply w-full h-20 bg-white border border-gray-200 text-xl text-gray-800 flex justify-center cursor-pointer hover:bg-black hover:text-white duration-300 items-center rounded-none font-semibold;
     }
-.contactTextArea{
-    @apply w-full rounded-lg border-b-[1px] border-b-gray-600 bg-[#191b1e] text-lightText px-4 py-2 active:outline-none focus-visible:outline-designColor outline-none focus-visible:border-b-transparent duration-300 resize-none
-}
+    .bgOpacity {
+        @apply bg-gray-200;
+    }
+    .contactInput{
+        @apply w-full h-12 rounded-lg border border-gray-300 bg-white text-gray-900 px-4 active:outline-none focus-visible:outline-black outline-none focus-visible:border-black duration-300 shadow-sm;
+    }
+    .contactTextArea{
+        @apply w-full rounded-lg border border-gray-300 bg-white text-gray-900 px-4 py-3 active:outline-none focus-visible:outline-black outline-none focus-visible:border-black duration-300 resize-none shadow-sm;
+    }
 }
 
 .active {
-    color: white;
+    color: #000000;
+    font-weight: 700;
 }
 .scrollbar-hide::-webkit-scrollbar{
     display: none;

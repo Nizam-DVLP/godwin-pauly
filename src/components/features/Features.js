@@ -1,7 +1,5 @@
 import React from 'react'
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { FaBuilding, FaCoins, FaGraduationCap, FaGlobe, FaRocket, FaChartLine } from "react-icons/fa";
 import Title from '../layouts/Title';
 import Card from './Card';
 
@@ -9,49 +7,43 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-b-gray-200"
     >
-      <Title title="Features" des="What I Do" />
+      <Title title="CORE CAPABILITIES" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
+          title="Real Estate Advisory"
+          des="Helping clients buy, sell, or structure property decisions aligned with long-term financial growth."
+          icon={<FaBuilding />}
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<AiFillAppstore />}
+          title="Retail & Cashflow Ventures"
+          des="Identifying margin-driven retail distribution opportunities and executing short-cycle revenue models."
+          icon={<FaCoins />}
         />
         <Card
-          title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiProgress />}
+          title="Education & Career Structuring"
+          des="Guiding students in selecting PG/UG programs aligned with income potential, career clarity, and background."
+          icon={<FaGraduationCap />}
         />
         <Card
-          title="Mobile Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<FaMobile />}
-        />
-        <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
-        />
-        <Card
-          title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="Digital & Scalable Income Systems"
+          des="Creating leveraged digital channels designed for structured, scalable revenue."
           icon={<FaGlobe />}
+        />
+        <Card
+          title="Soft Launch Platform"
+          des="A structured income experimentation platform where you test, execute, and scale revenue models."
+          icon={<FaRocket />}
+        />
+        <Card
+          title="Multi-Channel Income Design"
+          des="Designing sustainable revenue systems with clarity first, structure second, and execution always."
+          icon={<FaChartLine />}
         />
       </div>
     </section>
   );
 }
 
-export default Features
+export default Features;

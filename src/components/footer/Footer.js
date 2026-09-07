@@ -1,137 +1,122 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import React from 'react';
+import { FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
-      <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+    <div className="w-full py-20 h-auto border-b-[1px] border-b-gray-200 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+      <div className="w-full h-full flex flex-col gap-6">
+        <div className="flex items-center gap-2">
+          <img className="w-16" src={logo} alt="Godwin Pauly" />
+        </div>
+        <div>
+          <h3 className="text-xl font-bold text-black font-titleFont">
+            GODWIN <span className="text-gray-600">PAULY</span>
+          </h3>
+          <p className="text-xs text-black font-semibold uppercase tracking-widest mt-1">
+            Founder | Soft Launch
+          </p>
+          <p className="text-sm text-gray-600 mt-2 leading-6">
+            Designing and scaling structured income systems across real estate transactions, retail distribution, and education advisory.
+          </p>
+        </div>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+            <span className="bannerIcon">
+              <FaTwitter />
+            </span>
+          </a>
+          <a href="mailto:godwinpauly@gmail.com">
+            <span className="bannerIcon">
+              <MdEmail />
+            </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          Quick Link
+        <h3 className="text-sm uppercase font-bold text-black tracking-widest">
+          Quick Navigation
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
+        <ul className="flex flex-col gap-3 font-titleFont font-medium py-6 overflow-hidden">
           <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              About
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+            <a href="#home" className="w-full text-sm text-gray-600 relative hover:text-black duration-300 group cursor-pointer block">
+              Home
+            </a>
           </li>
           <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Portfolio
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+            <a href="#features" className="w-full text-sm text-gray-600 relative hover:text-black duration-300 group cursor-pointer block">
+              What I Do
+            </a>
           </li>
           <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Services
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+            <a href="#projects" className="w-full text-sm text-gray-600 relative hover:text-black duration-300 group cursor-pointer block">
+              Execution Highlights
+            </a>
           </li>
           <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Blog
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+            <a href="#resume" className="w-full text-sm text-gray-600 relative hover:text-black duration-300 group cursor-pointer block">
+              Operating Principles
+            </a>
           </li>
           <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Contact
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+            <a href="#testimonial" className="w-full text-sm text-gray-600 relative hover:text-black duration-300 group cursor-pointer block">
+              Why Connect
+            </a>
           </li>
         </ul>
       </div>
       <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          RESOURCES
+        <h3 className="text-sm uppercase font-bold text-black tracking-widest">
+          Focus Verticals
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+        <ul className="flex flex-col gap-3 font-titleFont font-medium py-6 overflow-hidden">
+          <li className="text-sm text-gray-600">
+            Real Estate Advisory
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              System Status
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Retail &amp; Cashflow Ventures
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Terms of Service
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Education &amp; Career Structuring
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Pricing
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Digital Scalable Systems
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Over Right
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Soft Launch Platform
           </li>
         </ul>
       </div>
       <div className="w-full h-full">
-        <h3 className="text-xl uppercase text-designColor tracking-wider">
-          DEVELOPERS
+        <h3 className="text-sm uppercase font-bold text-black tracking-widest">
+          Core Principles
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium overflow-hidden py-6">
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Documentation
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+        <ul className="flex flex-col gap-3 font-titleFont font-medium py-6 overflow-hidden">
+          <li className="text-sm text-gray-600">
+            Act Decisively with Logic
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Authentication
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Discipline Before Expansion
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              API Reference
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Structured Diversification
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Support
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Long-Term Value Creation
           </li>
-          <li>
-            <span className="w-full text-lg relative hover:text-designColor duration-300 group cursor-pointer">
-              Open Source
-              <span className="w-full h-[1px] bg-designColor inline-flex absolute left-0 -bottom-1 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
-            </span>
+          <li className="text-sm text-gray-600">
+            Protect Fundamentals
           </li>
         </ul>
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
