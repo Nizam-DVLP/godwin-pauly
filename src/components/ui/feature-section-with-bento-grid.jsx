@@ -86,7 +86,12 @@ function Feature() {
             </div>
 
             {/* Bento Card 3: Education Advisory (1 col) */}
-            <div className="bg-white border border-gray-200 rounded-2xl p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300">
+            <a
+              href="https://rightin.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white border border-gray-200 rounded-2xl p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300 cursor-pointer block"
+            >
               <div className="flex items-center justify-between">
                 <div className="w-12 h-12 rounded-xl bg-gray-100 border border-gray-200 flex items-center justify-center text-black group-hover:bg-black group-hover:text-white transition-colors duration-300">
                   <GraduationCap className="w-6 h-6 stroke-[1.5]" />
@@ -113,7 +118,7 @@ function Feature() {
                   Guided 50+ candidates in PG/UG admissions aligned with high-income trajectories, candidate profile strengths, and verified academic ROI.
                 </p>
               </div>
-            </div>
+            </a>
 
             {/* Bento Card 4: Soft Launch Platform (2 cols) */}
             <div className="bg-white border border-gray-200 rounded-2xl h-full lg:col-span-2 p-8 flex justify-between flex-col shadow-shadowOne group hover:border-black transition-all duration-300">
