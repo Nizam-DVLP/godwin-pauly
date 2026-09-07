@@ -43,9 +43,10 @@ const Experience = () => {
         <div className="mt-4 lgl:mt-8 w-full h-auto border-l-2 border-l-gray-300 flex flex-col gap-6">
           <ResumeCard
             title="Education &amp; Career Structuring"
-            subTitle="PG / UG Admissions Consulting"
-            result="50+ Students"
-            des="Guided 50+ students in selecting PG/UG academic programs aligned directly with high-income potential, career clarity, and candidate background."
+            subTitle="PG / UG Admissions Consulting • RightIn"
+            result="rightin.in"
+            link="https://rightin.in"
+            des="Guided 50+ students in selecting PG/UG academic programs aligned directly with high-income potential, career clarity, and candidate background via rightin.in."
           />
           <ResumeCard
             title="Digital &amp; Scalable Income Systems"

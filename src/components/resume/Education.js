@@ -63,10 +63,17 @@ const Education = () => {
             des="Platform dedicated to testing, validating, executing, and scaling revenue models across multiple asset and commercial verticals."
           />
           <ResumeCard
+            title="Education & Career Advisory"
+            subTitle="UG / PG Admissions Consulting • RightIn"
+            result="rightin.in"
+            link="https://rightin.in"
+            des="Guided 50+ students in structured admissions roadmaps aligned with earning clarity, high ROI, and career trajectories via rightin.in."
+          />
+          <ResumeCard
             title="Cross-Sector Asset & Commercial Advisor"
-            subTitle="Real Estate • Retail Distribution • Education"
+            subTitle="Real Estate • Retail Distribution • Digital"
             result="Advisor"
-            des="Advising and executing across diverse commercial sectors: structuring residential property deals, margin-driven distribution, and UG/PG admissions."
+            des="Advising and executing across diverse commercial sectors: structuring residential property deals, margin-driven distribution, and scalable revenue channels."
           />
           <ResumeCard
             title="Practical Operating Mantra"
